@@ -2,8 +2,10 @@
 
 This project analyzes which property and location characteristics are associated
 with rental prices in Berlin. The analysis is implemented in the Jupyter
-notebook [`Berlin_rental_prices_project2.0.ipynb`](./Berlin_rental_prices_project2.0.ipynb)
+notebook [`Berlin_rental_prices_analysis.ipynb`](./Berlin_rental_prices_analysis.ipynb)
 and uses the accompanying [`rentals.csv`](./rentals.csv) dataset.
+
+An html export is available at [`Berlin_rental_prices_analysis.html`](./Berlin_rental_prices_analysis.html).
 
 ## Project contents
 
