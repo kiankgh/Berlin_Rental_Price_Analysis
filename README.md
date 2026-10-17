@@ -29,13 +29,12 @@ py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-Install the notebook runtime and analysis dependencies:
+Install the pinned project dependencies from
+[`requirements.txt`](./requirements.txt):
 
 ```powershell
 python -m pip install --upgrade pip
-python -m pip install `
-  jupyter ipykernel `
-  pandas numpy matplotlib seaborn scipy statsmodels kagglehub
+python -m pip install -r requirements.txt
 ```
 
 Register the environment as a user-level Jupyter kernel and launch Jupyter:
